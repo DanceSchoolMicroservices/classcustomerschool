@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    stream:
+      kafka:
+        bindings:
+          ClassCustomerEvent:
+            producer:
+              sync: true
