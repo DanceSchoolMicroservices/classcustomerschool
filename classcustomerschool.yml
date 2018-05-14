@@ -9,3 +9,8 @@ spring:
           ClassCustomerEvent:
             producer:
               sync: true
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
