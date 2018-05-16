@@ -11,6 +11,9 @@ spring:
               sync: true
 
 eureka:
+  instance:
+    preferIpAddress: true	
   client:
+    hostname: localhost
     registerWithEureka: true
     fetchRegistry: true
